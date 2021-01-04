@@ -12,6 +12,8 @@ def serve_index() -> str: return 'Fiat Pipe for Oxen'
 def serve_price(fiat: str, crypto: str) -> dict:
     fiat = fiat.lower()
     crypto = crypto.lower()
+
+    # Hardcoded until the ticker changes
     if crypto == 'oxen':
         crypto = 'loki-network'
 
