@@ -2,6 +2,7 @@ import requests
 from bottle import run, Bottle, response
 
 root = Bottle()
+port = 8080
 
 
 @root.route('/')
@@ -28,4 +29,4 @@ def serve_price(fiat: str, crypto: str) -> dict:
 
 
 if __name__ == '__main__':
-    run(root, port=8080)
+    run(root, port=port)
