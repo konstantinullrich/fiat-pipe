@@ -1,7 +1,7 @@
 # Fiat Pipe
 A REST-API to load Fiat pricing from CoinGecko anonymously.
 
-This Project is build for the Oxen Wallet so also optimized for that.  
+This Project is built for the Oxen Wallet.  
 
 ## Get started
 
